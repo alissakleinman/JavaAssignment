@@ -15,7 +15,7 @@ var TheKnicksAreBadThisYear = true;
 
 //This is an array.
 var cheeses = ["Gruyere", "Manchego", "Swiss", "Labneh", "Camembert"];
-var numbers = [2, 3, 4, 5, 6]
+var numbers = [2, 3, 4, 5, 6];
 
 //This is an example of a multi-dimensional array.
 
@@ -50,10 +50,11 @@ console.log(x + y);
 if (x > y){
 	console.log("you won't see this because 4 is less than 7");
 } else{
-	console.log("you'll see this message")
+	console.log("you'll see this message");
 }
 
-//Here are some functions, all tested in the console:
+//Here are some super simple functions:
+
 function addThree (number){
 	return number + 3;
 }
