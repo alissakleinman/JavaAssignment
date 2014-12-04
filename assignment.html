@@ -6,7 +6,15 @@
   	</head>
 	<body>
 		<h1>My Favorite Food Is...</h1>
-		<h2>CHEESE</h2>
+		<div onclick="change()" id="element">
+			<h2>CHEESE</h2>
+		</div>
 		<p>I like cheese.</p>
+
+	<script>
+		function change(){
+		document.getElementById	('element').innerHTML = "Yum!";
+		}	
+	</script>
 	</body>
 </html>
